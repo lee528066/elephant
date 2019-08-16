@@ -1,9 +1,0 @@
-2019-08-15 16:44:45,462 WARN  - ElephantServer.java:86[main] - ERROR: replication slot "slot_for_kafka" already exists
-2019-08-15 16:45:07,317 INFO  - ElephantServer.java:56[main] - received message：BEGIN 707
-2019-08-15 16:45:07,317 INFO  - ElephantServer.java:56[main] - received message：table public.student: UPDATE: old-key: id[bigint]:2 name[character varying]:'liweiX' age[integer]:28 new-tuple: id[bigint]:2 name[character varying]:'liweiX' age[integer]:28
-2019-08-15 16:45:07,318 INFO  - ElephantServer.java:56[main] - received message：table public.student: UPDATE: old-key: id[bigint]:3 name[character varying]:'liweiY' age[integer]:19 new-tuple: id[bigint]:3 name[character varying]:'liweiY' age[integer]:19
-2019-08-15 16:45:07,318 INFO  - ElephantServer.java:56[main] - received message：COMMIT 707
-2019-08-15 16:56:42,813 INFO  - ElephantServer.java:56[main] - received message：BEGIN 709
-2019-08-15 16:56:42,814 INFO  - ElephantServer.java:56[main] - received message：table public.student: UPDATE: id[bigint]:2 name[character varying]:'liweiX' age[integer]:28
-2019-08-15 16:56:42,814 INFO  - ElephantServer.java:56[main] - received message：table public.student: UPDATE: id[bigint]:3 name[character varying]:'liweiY' age[integer]:19
-2019-08-15 16:56:42,814 INFO  - ElephantServer.java:56[main] - received message：COMMIT 709
